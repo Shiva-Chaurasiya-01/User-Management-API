@@ -1,0 +1,42 @@
+.env 
+.venv
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Type checkers / linters
+.mypy_cache/
+.dmypy.json
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Databases / runtime
+*.sqlite3
+*.db
+instance/
+*.log
+celerybeat-schedule
+
+# Other virtualenv names
+env/
+venv/
+ENV/
+ENV.bak/
